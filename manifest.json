@@ -1,11 +1,11 @@
 {
-  "name": "Wise Words from Wise People",
+  "name": "Make Me Feel Good",
   "version": "1.0.0",
   "description": "This extension shares a motivational quote",
   "manifest_version": 3,
   "author": "Umair & Daniel",
   "action": {
     "default_popup": "index.html",
-    "default_title": "Wise Words from Wise People"
+    "default_title": "Make Me Feel Good"
   }
 }

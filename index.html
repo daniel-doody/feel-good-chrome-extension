@@ -4,22 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wise Quotes from Wise People</title>
+    <title>Make Me Feel Good</title>
 
-    <style></style>
+    <style>
+      body {
+        text-align: center;
+        background-color: rgba(147, 255, 239, 0.722);
+        min-width: 750px;
+        min-height: 500px;
+      }
+      h1 {
+        color: rgb(0, 0, 0);
+      }
+      h2 {
+        color: black;
+        font-style: italic;
+      }
+    </style>
   </head>
   <body>
     <!-- BUTTONS -->
     <div>
-      <button onclick="fetchQuote()">Inspire Me</button>
-      <button onclick="fetchJoke()">Make Me Laugh</button>
-      <input type="button" onclick="fetchQuote()" value="Press me!" />
+      <button id="quoteButton">Inspire Me</button>
+      <script src="quote-script.js"></script>
+      <button id="jokeButton">Make Me Laugh</button>
+      <script src="joke-script.js"></script>
     </div>
 
     <!-- CONTENT -->
     <div id="content-block">
-      <p id="text"></p>
-      <p id="author"></p>
+      <h1 id="text"></h1>
+      <h2 id="author"></h2>
     </div>
   </body>
   <script src="joke-script.js"></script>
